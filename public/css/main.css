@@ -1,0 +1,22 @@
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+
+nav {
+  bottom: 0;
+  position: fixed;
+}
+nav ul {
+  list-style: none;
+}
+nav ul span {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=main.css.map */

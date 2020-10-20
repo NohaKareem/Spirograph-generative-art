@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.hidden { display: none; }
+
+body {
+	font-family: 'Raleway',  sans-serif;
+	// color: white;
+
+	// no scroll 
+	height: 100%;
+	overflow: hidden;
+}
+
+nav {
+	bottom: 0;
+	position: fixed;
+
+	ul {
+		list-style: none;
+		span {
+			font-weight: bold;
+		}
+	}
+}
