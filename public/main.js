@@ -7,6 +7,7 @@ socket.on('joystick', function(joystick) {
 
 // generative art
 let angle = 0;
+let joyStickX = 0, joyStickY = 0, scaleFactor = 1, newHeight = 0;
 const RADIUS = 500, MARGIN = 10;
 let dayMode = true;
 let circleOutlineHistory = [];
