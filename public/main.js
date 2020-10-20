@@ -7,8 +7,6 @@ socket.on('joystick', function(joystick) {
 
 // generative art
 let angle = 0;
-let topHalfCircle;
-let joyStickX = 0, joyStickY = 0, scaleFactor = 1, newHeight = 0;
 const RADIUS = 500, MARGIN = 10;
 let dayMode = true;
 let circleOutlineHistory = [];
@@ -121,7 +119,7 @@ class CircleOutline {
 		this.endAngle = endAngle;
 
 		// default weight
-		this.strokeWeight = 5; 
+		this.strokeWt = 5; 
 
 		this.render();
 	}
@@ -143,10 +141,6 @@ class CircleOutline {
 	}
 	
 	setColorMode(nightMode) {
-		if(nightMode) {
-			this.color = this.nightColor; 
-		} else {
-			this.color = this.dayColor;
-		}
+		this.color = nightMode ? this.nightColor : this.dayColor; 
 	}
 }
