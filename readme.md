@@ -2,6 +2,8 @@
 Built for the class 5009. Built with Arduino, node, Johnyy-five and p5.js.
 Gradient colors from colorhexa.com
 
+![](demo.gif)
+
 ## Goal
 To render a spirograph and use the Arduino joystick controller to interact with it, altering y location (and thus rendered shape) as well as color mode (night mode and day mode color palettes), using y and x joystick values respectively. Furthermore, x value changes would alter the stroke weight as well. 
 
