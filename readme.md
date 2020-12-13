@@ -1,6 +1,6 @@
 # Spirograph Generative Art
 Built for the class 5009. Built with Arduino (code requires circuit to run), node, Johnny-five and p5.js.
-Gradient colors from colorhexa.com
+Gradient colors from [colorhexa.com](https://www.colorhexa.com/)
 
 ![](demo.gif)
 
