@@ -9,6 +9,11 @@ To render a spirograph and use the Arduino joystick controller to interact with 
 
 A CircleOutline class is defined which helps encapsulate every arc's properties within an object. 
 
+## Setup
+- `npm install`
+- `node index.js`
+- visit port provided (localhost:3000) 
+
 ## Paper plan/pseudocode
 1. Set up back-end; a socket.io server listening to joystick changes and emiting them as joystick events 
 2. Define CircleOutline class 
